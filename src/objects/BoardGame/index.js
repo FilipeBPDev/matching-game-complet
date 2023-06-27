@@ -1,12 +1,15 @@
-import CardGame from '../../components/CardGame/index';
+import './style.css';
+import CardFrontBack from '../../components/CardFrontBack';
 
 function BoardGame(amountCards) {
-    const $htmlCardGame = CardGame();
-    const $htmlBoardGame = $htmlCardGame.repeat(amountCards); 
+    const $htmlCardFrontBack = CardFrontBack();
+    const $htmlContent = $htmlCardFrontBack.repeat(amountCards);
 
-    console.log($htmlBoardGame);
-    return $htmlBoardGame;
-    
+    return /*html*/`
+    <section class = "board-game">
+       ${$htmlContent}
+    </section>
+   `
 }
 
 export default BoardGame;
