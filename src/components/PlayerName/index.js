@@ -1,6 +1,6 @@
 import './style.css';
 
-function PlayerName(content) {
+function PlayerName(content = "vs") {
     return /*html*/`
     <p class = "player-name">${content}</p>
     `;
