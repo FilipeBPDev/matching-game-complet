@@ -8,3 +8,15 @@
     background-color: var(--color-alura);
     border: 4px solid var(--color-floral-white);
 }
+
+.card-game.html {
+    background-color: var(--color-radiant-orange);
+}
+
+.card-game.css {
+    background-color: var(--color-royal-blue);
+}
+
+.card-game.javascript {
+    background-color: var(--color-yellow-dorney);
+}
